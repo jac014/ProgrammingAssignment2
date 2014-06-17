@@ -1,6 +1,6 @@
 ## This function sets up the matrix and result variables. It also defines how the 
 ## functions set, get, setsolve and getsolve operate. 
-## Variables x and m inside the set function are available to the parent function.
+## Variables x and m inside the set function are available to the parent function environment.
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
